@@ -1,0 +1,45 @@
+.body{
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    
+}
+.body>img {
+    width: 100%;
+    height: 400px;
+}
+h3{
+    font-family: cursive;
+    font-size: 30px;
+    color: #464646;
+    height: 0;
+}
+.body__1>button{
+    border: none;
+    padding: 5px;
+    background-color: #b9ddd8;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.body__products1{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid blue; */
+    display: flex;
+    margin-top: 20px;
+}
+.body__products1>div{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 16.66%;
+    
+ }
+ .body__products1>div>img{
+    width: 100%;
+    height: 100%;
+ }
