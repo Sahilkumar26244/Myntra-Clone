@@ -1,0 +1,36 @@
+.login{
+    background-color: #fceef1;
+    height: 630px;
+    border: 1px solid white;
+}
+.login>img{
+    width:400px;
+    margin-top: 40px;
+}
+.login__div{
+    margin: auto;
+    width:25%;
+    display: grid;
+    grid-template-columns: repeat(1);
+    padding: 20px;
+    gap:20px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.login__div>input{
+    padding: 15px 8px 15px 8px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    font-size: 15px;
+}
+.login__div>button{
+    padding: 15px 20px 15px 20px;
+    background-color: #ee4f6c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+}
