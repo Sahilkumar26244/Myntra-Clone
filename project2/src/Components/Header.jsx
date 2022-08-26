@@ -25,7 +25,8 @@ function Header() {
             <div className='header__section' >
                 <ul >
                     <li className='dropdown' >
-                        <a  className='dropbtn' style={linkStyle} >MEN</a>
+                        {/* <a  className='dropbtn' style={linkStyle} >MEN</a> */}
+                        <Link className='dropbtn' style={linkStyle}  to="/menPage" >MEN</Link>
                         <div className='dropdownContent' >
                   <div
                     style={{
@@ -184,7 +185,8 @@ function Header() {
                       {/* Women */}
 
                     <li className='dropdown' >
-                        <a href="" className='dropbtn' style={linkStyle}  >WOMEN</a>
+                        {/* <a href="" className='dropbtn' style={linkStyle}  >WOMEN</a> */}
+                        <Link className='dropbtn' style={linkStyle} to="/womenPage" >WOMEN</Link>
                         <div className="dropdownContent">
                   <div
                     style={{
@@ -854,6 +856,7 @@ function Header() {
                         <FavoriteBorderIcon style={{ marginTop:"15px" }}  /> <br/>
                         Wishlist
                 </div>
+                <Link style={{textDecoration: "none",color: "black"}}  to="/cart" >
                 <div style={{
                 fontSize: "10px",
                 textDecoration: "none",
@@ -861,12 +864,15 @@ function Header() {
                 marginTop: "17px",
                 paddingLeft: "10px",
               }} >
-                <Badge color='secondary' badgeContent={1} >
-                    <ShoppingBagOutlinedIcon style={{ color:"black" }} />
-                </Badge>
-                <br/>
-                Cart
-                </div>
+                
+                    <Badge color='secondary' badgeContent={1} >
+                        <ShoppingBagOutlinedIcon style={{ color:"black" }} />
+                    </Badge>
+                    <br/>
+                    Cart
+                    </div>
+                </Link>
+                
             </div>
         </div>
         
