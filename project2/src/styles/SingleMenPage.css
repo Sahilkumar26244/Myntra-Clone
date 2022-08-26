@@ -1,0 +1,124 @@
+.singleMan__container{
+    display: grid;
+    grid-template-columns: 700px 599px;
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+.singleMan__img{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    padding: 30px;
+    gap:20px
+}
+.singleMan__img>div>img{
+    cursor: zoom-in;
+    width: 330px;
+    transition: 0.9s all ease-in-out;
+    cursor: pointer;
+}
+.singleMan__img>div>img:hover{
+    transform: scale(1.1);
+}
+.singleMan__details{
+    width: 100%;
+    padding: 20px;
+
+}
+.singleMan__details1{
+    /* border: 1px solid red; */
+    width: 95%;
+    height: 90%;
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+.singleMan__brand{
+    font-size: 24px;
+    margin: 5px 0px -15px 0px ;
+    color: darkslategray;
+    font-weight: bolder;
+}
+.singleMan__rating{
+    border: 1px solid lightgray;
+    width:30%;
+    height: 38px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    
+}
+.singleMan__rating:hover{
+    border: 1px solid black;
+}
+.singleMan__rating>div{
+    display: flex;
+}
+.size__box{
+    display: flex;
+    /* border: 1px solid black; */
+    width:45%;
+    height: 38px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.size__map{
+    display: flex;
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  font-weight:480;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.size__map:hover{
+    border:1px solid #e7396a
+}
+
+.cart__box{
+    /* border: 1px solid black; */
+    width:500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cart__box1{
+    border: 1px solid red;
+    width: 55%;
+    height: 70%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: #ee4f6c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    /* padding: 0px 0px 0px 0px; */
+}
+.cart__box2{
+    border: 1px solid lightgray;
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    color: #39303e;
+    cursor: pointer;
+}
+.cart__box2:hover{
+    border: 1px solid black;
+}

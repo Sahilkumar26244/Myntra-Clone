@@ -1,0 +1,134 @@
+.menPage{
+    margin: 0;
+    padding: 0;
+}
+.menPage__totalProducts{
+    width: auto;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 15px;
+}
+.menPage__totalProducts>strong{
+    margin-top: 15px;
+}
+.menPage__totalProducts>p{
+    margin-left: 5px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.menPage__filter{
+    width: auto;
+    display: grid;
+    grid-template-columns: 250px 840px 260px;
+    height: 45px;
+    /* border: 1px solid blue; */
+}
+.menPage__filter1{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.menPage__filter1>div{
+    font-weight: bold;
+}
+#clear{
+    color: #ee4f6c;
+    cursor: pointer;
+    font-size: 15px;
+    /* width: 90%; */
+}
+.menPage__filter2{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.menPage__filter2>div{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.menPage__filter3{
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+.menPage__sort{
+    width: 95%;
+    height: auto;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 5px 5px;
+    /* position: relative; */
+}
+
+.menPage__sort>div{
+    font-size: 14px;
+}
+.products{
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 245px 1110px;
+}
+.filter__section{
+    border: 1px solid blue;
+    height: 200px;
+}
+.allProducts{
+    margin-top: 20px;
+    border: 1px solid pink;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,0.25fr);
+    padding: 20px 0px 0px 20px;
+    gap: 20px;
+    /* margin-left: -20px; */
+}
+
+.singleProduct{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: auto;
+}
+.singleProduct:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.singleProduct1>img{
+    width: 100%;
+    height: 100%;
+
+}
+.men__details{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.brand{
+    font-weight: bold;
+    text-align: left;
+}
+.title{
+    color: gray;
+    font-size: small;
+    text-align: left;
+    /* flex-wrap: nowrap; */
+    /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+.price__details{
+    /* border: 1px solid black; */
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 9px;
+}
