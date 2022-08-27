@@ -6,25 +6,38 @@ import StarIcon from "@mui/icons-material/Star";
 import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder"
 import Footer from './Footer';
+import { useStateValue } from "../StateProvider";
+
+
 
 function SingleMenPage() {
-
+  const [{ basket }, dispatch] = useStateValue();
   const [data,setData] = useState([]);
+
+  const addToBasket = () => {
+    // dispatch the item to data layer
+    dispatch({
+      type: "ADD_TO_BASKET",
+      item: {
+        ...data
+      }
+    });
+  };
+  // console.log(basket)
 
   const getData = async () => {
     let res = await fetch(`https://myntrafinaldata.herokuapp.com/men/${id}`);
     let datas = await res.json();
-    console.log(datas);
+    // console.log(datas);
     setData([datas]);
   };
   useEffect(() => {
     getData();
   }, []);
-
-  console.log(data)
+  // console.log(data)
 
   const { id } = useParams();
-  console.log(id);
+  // console.log(id);
   return (
     <div>
         <Header/>
@@ -35,16 +48,16 @@ function SingleMenPage() {
             <div className='singleMan__container' >
               <div className='singleMan__img' >
                 <div>
-                  <img src={item.images.image1} />
+                  <img alt="" src={item.images.image1} />
                 </div>
                 <div>
-                  <img src={item.images.image2} />
+                  <img alt="" src={item.images.image2} />
                 </div>
                 <div>
-                  <img src={item.images.image3} />
+                  <img alt="" src={item.images.image3} />
                 </div>
                 <div>
-                  <img src={item.images.image4} />
+                  <img alt="" src={item.images.image4} />
                 </div>
               </div>
             <div className='singleMan__details' >
@@ -102,7 +115,7 @@ function SingleMenPage() {
                           </p>
                         </div>
                     </div>
-                    <div style={{marginTop: "-18px",color: "#79a987",fontSize: "14px",marginTop: "0px"}}>
+                    <div style={{color: "#79a987",fontSize: "14px",marginTop: "0px"}}>
                       <b>inclusive of all taxes</b>
                     </div>
                     <div className='size__box' >
@@ -119,7 +132,7 @@ function SingleMenPage() {
                           })}
                     </div>
                     <div className='cart__box' >
-                        <div className='cart__box1' >
+                        <div onClick={addToBasket} className='cart__box1' >
                             <ShoppingBagIcon style={{fontSize:"18px"}} />
                             <p>
                               <b style={{fontSize:"18px"}} >ADD TO BAG</b>

@@ -6,6 +6,8 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import Badge from "@mui/material/Badge";
 import { Link } from 'react-router-dom';
+import { useStateValue } from "../StateProvider";
+
 
 const linkStyle = {
     textDecoration: "none",
@@ -15,6 +17,8 @@ const linkStyle = {
   };
 
 function Header() {
+  const [{ basket }, dispatch] = useStateValue();
+  
   return (
     <div className="header" >
         <div className='header__main' >
@@ -865,7 +869,7 @@ function Header() {
                 paddingLeft: "10px",
               }} >
                 
-                    <Badge color='secondary' badgeContent={1} >
+                    <Badge color='secondary' badgeContent={basket.length} >
                         <ShoppingBagOutlinedIcon style={{ color:"black" }} />
                     </Badge>
                     <br/>
