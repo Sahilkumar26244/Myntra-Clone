@@ -1,0 +1,60 @@
+.cartNavbar{
+    border: 0;
+    margin: 0;
+    /* width: fit-content; */
+}
+.cartMain{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f5f5f6;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 3px;
+  gap: 300px;
+}
+.logo{
+    flex: 1;
+  margin-left: 20px;
+}
+.logo>img{
+    width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.cartMiddle{
+    flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 0px; */
+  /* border: 1px solid blue; */
+}
+.bagCheck{
+    color: #20bd99;
+    border-bottom: 2px solid #20bd99;
+}
+.addCheck{
+    color: #696b79;
+}
+.payCheck{
+    color: #696b79;
+}
+.cartEnd{
+    flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  gap: 10px;
+  margin-left: 10px;
+}
+.cartEnd>img {
+    width: 30px;
+  height: 30px;
+}
+.cartEnd>p{
+    margin-bottom: 20px;
+}
