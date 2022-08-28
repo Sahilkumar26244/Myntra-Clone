@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { useStateValue } from '../../StateProvider';
 import "./Cart.css"
 
@@ -36,7 +37,7 @@ function CartRight() {
             <p className='priceDetails' >PRICE DETAILS ({basket.length}Items)</p>
             <div className='price1' >
                 <p>Total MRP</p>
-                <p>{totalMRP}</p>
+                <p>₹{totalMRP}</p>
             </div>
             <div className='price1' >
                 <p>Discount on MRP</p>
@@ -51,9 +52,12 @@ function CartRight() {
                 <p>Total Amount</p>
                 <p>₹{totalAmount}</p>
             </div>
+            <Link style={{textDecoration:"none"}} to="/address" >
             <div className='placeOrder' >
                 PLACE ORDER
             </div>
+            </Link>
+            
         </div>
     </div>
   )

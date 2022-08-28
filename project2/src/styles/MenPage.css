@@ -11,6 +11,7 @@
 }
 .menPage__totalProducts>strong{
     margin-top: 15px;
+    color: #2c3043;
 }
 .menPage__totalProducts>p{
     margin-left: 5px;
@@ -32,6 +33,7 @@
 }
 .menPage__filter1>div{
     font-weight: bold;
+    color: #2c3043;
 }
 #clear{
     color: #ee4f6c;
@@ -72,17 +74,14 @@
     margin-top: 10px;
     width: auto;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     display: grid;
     grid-template-columns: 245px 1110px;
 }
-.filter__section{
-    border: 1px solid blue;
-    height: 200px;
-}
+
 .allProducts{
-    margin-top: 20px;
-    border: 1px solid pink;
+    margin-top: 0px;
+    border: 1px solid lightgray;
     width: auto;
     height: auto;
     display: grid;
@@ -132,3 +131,39 @@
     background: white;
     padding: 9px;
 }
+.filter__section{
+    border: 1px solid lightgray;
+    height: auto;
+    position: sticky;
+}
+.category{
+    /* border: 1px solid brown; */
+    width: 100%;
+    height: auto;
+}
+.brandFilter{
+    /* border: 1px solid brown; */
+    width: 100%;
+    height: auto;
+}
+.category1{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px 0px 40px;
+}
+.category1>div{
+    font-size: 15px;
+    font-weight: bold;
+    color: #2c3043;
+}
+.checkboxes{
+    border: 1px solid lightgray;
+}
+.checkboxes>div{
+    margin-left: 40px;
+    font-size: 10px;
+    display: flex;
+    gap: 8px;
+}
+

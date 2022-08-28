@@ -23,7 +23,7 @@ function SingleMenPage() {
       }
     });
   };
-  // console.log(basket)
+  console.log(basket)
 
   const getData = async () => {
     let res = await fetch(`https://myntrafinaldata.herokuapp.com/men/${id}`);

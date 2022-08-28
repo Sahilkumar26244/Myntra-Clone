@@ -1,7 +1,7 @@
 .cartNavbar{
     border: 0;
     margin: 0;
-    /* width: fit-content; */
+   
 }
 .cartMain{
     display: flex;
@@ -57,4 +57,31 @@
 }
 .cartEnd>p{
     margin-bottom: 20px;
+}
+/* order.jsx */
+
+.order{
+  width:50%;
+  height: 100px;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px 0px 0px 0px;
+}
+.order>h2{
+  color: #5ccea8;
+  font-size: 35px;
+  margin-top: 20px;
+}
+button{
+  padding: 20px 90px 20px 90px;
+  margin-top: 20px;
+  border: none;
+  background-color: #ee4f6c;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
 }
