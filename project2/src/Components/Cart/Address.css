@@ -1,0 +1,99 @@
+.addressBoxes{
+    display: grid;
+    grid-template-columns: 660px 680px;
+    margin: auto;
+}
+
+ /* .addressBox1{
+    border: 1px solid black;
+}
+.addressBox2{
+    border: 1px solid black;
+} */
+.contact{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    color: #3e4152;
+}
+.add1{
+    width: 65%;
+    height: 600px;
+    border: 1px solid lightgray;
+    margin-left: 150px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+.add1>input{
+    border: 1px solid lightgray;
+    padding: 15px 10px 15px 10px;
+    border-radius: 5px;
+}
+.cityBox{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.cityBox>div{
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding: 0px 0px 0px 8px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f5f5f6;
+    color: darkgray;
+}
+.cityBox>div>p{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.contactUs{
+    display: flex;
+    gap: 20px;
+}
+.contactUs>div{
+    border: 1px solid #3e4152;
+    padding: 10px 15px 10px 15px;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 20px;
+    color: #3e4152;
+    cursor: pointer;
+}
+.contactUs>div:hover{
+    border: 1px solid #ee4f6c;
+    color: #ee4f6c;
+}
+.addAddress{
+    width: 98%;
+    height: 50px;
+    /* border: 1px solid black;/ */
+    padding: 10px 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+}
+.addAddress>div{
+    width: 95%;
+    height: 96%;
+    /* border: 1px solid darkgray; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #ee4f6c;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    
+}
+.addAddress>div>p{
+    margin-top: 13px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}

@@ -18,7 +18,7 @@ function Cart() {
     // console.log(basket)
   return (
     <div>
-        <CartNavbar  />
+        <CartNavbar color1={"red"} />
         <div className='cart' >
             <div className='cartLeft' >
                 <div className='cartleftTop' >

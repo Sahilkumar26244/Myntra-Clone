@@ -5,6 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import SearchIcon from '@mui/icons-material/Search';
 
 function MenPage() {
 
@@ -49,7 +50,86 @@ function MenPage() {
             </div>
         </div>
         <div className='products' >
-            <div className='filter__section' ></div>
+            <div className='filter__section' >
+                <div className='category' >
+                    <div className='category1' >
+                        <div>CATEGORY</div>
+                        <div><SearchIcon/></div>
+                    </div>
+                    <div className='checkboxes' >
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}} >Tshirts</strong>(298)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}} >Shorts</strong>(655)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Track Pants</strong>(518)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Bra</strong>(477)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Tights</strong>(202)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Tops</strong>(123)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Innerwear Vests</strong>(92)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Capris</strong>(53)</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='category1' >
+                        <div>BRAND</div>
+                        <div><SearchIcon/></div>
+                    </div>
+                <div className='checkboxes' >
+                <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}} >HRX</strong>(298)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}} >Chokokko</strong>(187)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>CHIMPRALA</strong>(118)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Alcis</strong>(109)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>appulse</strong>(100)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Slazenger</strong>(82)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>MKH</strong>(73)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>OFF LIMITS</strong>(65)</p>
+                        </div>
+                </div>
+            </div>
             <div className='allProducts' >
                 {products.map((men)=> {
                     return (

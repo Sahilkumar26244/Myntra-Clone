@@ -5,6 +5,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import SearchIcon from '@mui/icons-material/Search';
 
 function WomenPage() {
 
@@ -48,7 +49,63 @@ function WomenPage() {
             </div>
         </div>
         <div className='products' >
-            <div className='filter__section' ></div>
+            <div className='filter__section' >
+            <div className='category' >
+                    <div className='category1' >
+                        <div>CATEGORY</div>
+                        <div><SearchIcon/></div>
+                    </div>
+                    <div className='checkboxes' >
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}} >Sarees</strong>(11224)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}} >Saree Blouse</strong>(3245)</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className='category1' >
+                        <div>BRAND</div>
+                        <div><SearchIcon/></div>
+                    </div>
+                <div className='checkboxes' >
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}} >KALINI</strong>(10897)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}} >Pothys</strong>(18798)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Mitera</strong>(78965)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>SAADHVI</strong>(43112)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Florence</strong>(4104)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Saree mall</strong>(82876)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>Unnati Silks</strong>(2799)</p>
+                        </div>
+                        <div>
+                            <input type="checkbox" />
+                            <p><strong style={{marginRight:"5px"}}>The Chennai Silks</strong>(65876)</p>
+                        </div>
+                </div>
+            </div>
             <div className='allProducts' >
                 {products.map((men)=> {
                     return (

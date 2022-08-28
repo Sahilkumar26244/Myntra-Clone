@@ -8,6 +8,7 @@ function CartItem({images,id,title,sizes,price,off_price,discount,brand}) {
     const [ {basket} , dispatch] = useStateValue();
 
     const removeFromBasket=(id)=>(
+        
         dispatch({
           type:'REMOVE_FROM_BASKET',
           id:id,
@@ -21,7 +22,7 @@ function CartItem({images,id,title,sizes,price,off_price,discount,brand}) {
         </div>
         <div className='cartItemInfo' >
             <div className='clear' >
-                <button onClick={()=> removeFromBasket(id) } >
+                <button className='xyz' onClick={()=> removeFromBasket(id) } >
                     <ClearIcon style={{color:"black",width:"25px",height:"25px"}} />
                 </button>
             </div>

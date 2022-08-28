@@ -822,7 +822,8 @@ function Header() {
                         padding:"20px 5px 20px 5px",
                         fontSize:"15px",
                         border : "0.1px solid black",
-                        fontWeight:"bold"
+                        fontWeight:"bold",
+                        color:"black"
                       }}
                     >
                       {`EXPLORE STUDION >`}
