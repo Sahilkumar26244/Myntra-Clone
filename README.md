@@ -44,23 +44,23 @@ npm run start
 
 ## HomePage
 
-![Screenshot (55)](![Screenshot (60)](https://user-images.githubusercontent.com/100782217/201830640-f4bb2f05-d11d-4b1d-a3f6-1e6d95a577cb.png))
+![Screenshot (60)](https://user-images.githubusercontent.com/100782217/201830640-f4bb2f05-d11d-4b1d-a3f6-1e6d95a577cb.png)
 
 ___
 
 ## Products Page (Men's Products)
-![Screenshot (56)](![Screenshot (61)](https://user-images.githubusercontent.com/100782217/201830712-cbff138d-5595-406c-98ab-550bc0968cd8.png))
+![Screenshot (61)](https://user-images.githubusercontent.com/100782217/201830712-cbff138d-5595-406c-98ab-550bc0968cd8.png)
 
 ___
 ## Single Products Page
-![Screenshot (57)](![Screenshot (62)](https://user-images.githubusercontent.com/100782217/201830767-086454ae-8d10-423b-837a-fc70eb6f27b0.png))
+![Screenshot (62)](https://user-images.githubusercontent.com/100782217/201830767-086454ae-8d10-423b-837a-fc70eb6f27b0.png)
 ___
 ## Cart Page
-![Screenshot (58)](![Screenshot (63)](https://user-images.githubusercontent.com/100782217/201830806-761cea57-b012-43d6-822a-140a4d29b9bc.png))
+![Screenshot (63)](https://user-images.githubusercontent.com/100782217/201830806-761cea57-b012-43d6-822a-140a4d29b9bc.png)
 ___
 
 ## Address Page
-![Screenshot (59)](![Screenshot (64)](https://user-images.githubusercontent.com/100782217/201830856-1a566a0c-59ab-419a-bc8c-2b9e8125a200.png))
+![Screenshot (64)](https://user-images.githubusercontent.com/100782217/201830856-1a566a0c-59ab-419a-bc8c-2b9e8125a200.png)
 ___
 
 ## Comfirmed Page
